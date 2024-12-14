@@ -90,11 +90,11 @@ font-size: 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 350px; // Asegurar que todas las tarjetas tengan la misma altura
+  height: 490px; // Asegurar que todas las tarjetas tengan la misma altura
 }
 
 .sobre-mi .card p {
-  font-size: 1rem;
+  font-size: 1.2rem; // Aumentar el tamaño de la fuente
   line-height: 1.5;
   margin-bottom: 2rem;
 }
