@@ -1,4 +1,6 @@
-# [FIGMA](https://www.figma.com/design/xivn9bkOggUtK9hqmgZ7we/Untitled?node-id=0-1&t=ksbTpgfwkdHIuYtQ-1)
+# [PROYECTO FIGMA](https://www.figma.com/design/xivn9bkOggUtK9hqmgZ7we/Untitled?node-id=0-1&t=ksbTpgfwkdHIuYtQ-1)
+
+# [PAGINA DESPLEGADA](https://elpabloas.github.io/MiPortafolio/)
 
 # Portafolio de Pablo Álvaro Serrano
 
