@@ -63,3 +63,67 @@
 @mixin txt-center{
   text-align: center;
 }
+
+@mixin navbar-mobile {
+  @include for-mobile {
+    .navbar {
+      font-size: 1.5rem; // Reducir el tamaño de la fuente en móviles
+    }
+    .nav {
+      flex-direction: column; // Cambiar a disposición vertical en móviles
+      align-items: center;
+    }
+    .bar {
+      flex-direction: column; // Cambiar a disposición vertical en móviles
+      align-items: center;
+      & > * {
+        padding-left: 0; // Eliminar padding en móviles
+        margin-bottom: 1rem; // Añadir margen inferior en móviles
+      }
+    }
+  }
+}
+
+@mixin contacto-mobile {
+  @include for-mobile {
+    .contacto {
+      padding: 1rem; // Reducir padding en móviles
+    }
+    .contacto .card {
+      width: 100%; // Ancho completo en móviles
+      padding: 1rem; // Reducir padding en móviles
+    }
+  }
+}
+
+@mixin navbar-tablet {
+  @include for-tablet {
+    .navbar {
+      font-size: 1.75rem; // Ajustar el tamaño de la fuente en tablets
+    }
+    .nav {
+      flex-direction: column; // Cambiar a disposición vertical en tablets
+      align-items: center;
+    }
+    .bar {
+      flex-direction: column; // Cambiar a disposición vertical en tablets
+      align-items: center;
+      & > * {
+        padding-left: 0; // Eliminar padding en tablets
+        margin-bottom: 1rem; // Añadir margen inferior en tablets
+      }
+    }
+  }
+}
+
+@mixin contacto-tablet {
+  @include for-tablet {
+    .contacto {
+      padding: 1.5rem; // Ajustar padding en tablets
+    }
+    .contacto .card {
+      width: 100%; // Ancho completo en tablets
+      padding: 1.5rem; // Ajustar padding en tablets
+    }
+  }
+}

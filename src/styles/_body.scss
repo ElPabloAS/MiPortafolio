@@ -169,7 +169,7 @@ font-size: 50px;
 }
 
 .contacto .card a:hover {
-  background-color: darken($background-color-header, 10%); // Fondo del botón al pasar el ratón
+  background-color: $background-color-header; // Fondo del botón al pasar el ratón
 }
 
 footer {
