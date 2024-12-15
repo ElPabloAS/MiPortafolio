@@ -105,8 +105,8 @@ font-size: 50px;
 
 .proyectos {
   display: flex;
-  flex-direction: row; // Disposición horizontal
-  align-items: stretch; // Asegurar que todas las tarjetas se estiren a la misma altura
+//  flex-direction: row; // Disposición horizontal
+ // align-items: stretch; // Asegurar que todas las tarjetas se estiren a la misma altura
   justify-content: center;
   padding: 2rem;
   flex-wrap: wrap; // Permitir que las tarjetas se envuelvan si es necesario
@@ -124,7 +124,7 @@ font-size: 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 350px; // Asegurar que todas las tarjetas tengan la misma altura
+  height: 250px; // Asegurar que todas las tarjetas tengan la misma altura
 }
 
 .proyectos .card img {
@@ -154,7 +154,7 @@ font-size: 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 350px;
+  height: 300px;
 }
 
 .contacto .card a {
@@ -192,4 +192,9 @@ footer .redes a img {
 
 .txt-center{
   text-align: center;
+}
+
+a {
+  color: $text-black; // Color de texto blanco para los enlaces
+  text-decoration: none; // Eliminar subrayado de los enlaces
 }
