@@ -90,7 +90,7 @@ font-size: 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 490px; // Asegurar que todas las tarjetas tengan la misma altura
+  height: 370px; // Asegurar que todas las tarjetas tengan la misma altura
 }
 
 .sobre-mi .card p {
@@ -198,3 +198,9 @@ a {
   color: $text-black; // Color de texto blanco para los enlaces
   text-decoration: none; // Eliminar subrayado de los enlaces
 }
+
+header a {
+  color: $text-white; // Color de texto blanco para los enlaces
+  text-decoration: none; // Eliminar subrayado de los enlaces
+}
+

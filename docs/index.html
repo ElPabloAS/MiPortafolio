@@ -6,8 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script type="module" crossorigin src="/MiPortafolio/assets/index-BYihmUs0.js"></script>
-    <link rel="stylesheet" crossorigin href="/MiPortafolio/assets/index-DQ9a3FoZ.css">
+    <style>
+      a {
+        color: #fff; /* Color de texto blanco */
+        text-decoration: none; /* Eliminar subrayado de los enlaces */
+      }
+      a:hover {
+        color: #ccc; /* Aclarar el color del texto al pasar el ratón */
+      }
+    </style>
+    <script type="module" crossorigin src="/MiPortafolio/assets/index-B_2ITHeA.js"></script>
+    <link rel="stylesheet" crossorigin href="/MiPortafolio/assets/index-EVDK9eck.css">
   </head>
   <body>
     <header class="navbar">
@@ -16,12 +25,13 @@
           <div>PABLO ALVARO SERRANO</div>
         </div>
         <div class="bar">
-          <div>SOBRE MI</div>
-          <div>CONTACTO</div>
-          <div>PORTAFOLIO</div>
+          <div><a href="#sobremi">SOBRE MI</a></div> <!-- Enlace de anclaje -->
+          <div><a href="#contacto">CONTACTO</a></div> <!-- Enlace de anclaje -->
+          <div><a href="#portafolio">PORTAFOLIO</a></div> <!-- Enlace de anclaje -->
         </div>
       </div>
       <div class="presentacion">
+        <a href="#sobremi"></a>
         <div class="container">
           <div>
             <h1>¡Hola! Mi nombre es Pablo Álvaro.</h1>
@@ -41,7 +51,7 @@
       </div>
     </header>
     <main>
-      <section class=" txt-center">
+      <section id="sobremi" class="txt-center"> <!-- Agregar id para el anclaje -->
         <div class="yo">SOBRE MI</div>
         <div class="sobre-mi">
           <div class="card">
@@ -65,7 +75,7 @@
         </div>
       </section>
 
-      <section class="proyectos">
+      <section id="portafolio" class="proyectos"> <!-- Agregar id para el anclaje -->
         <div class="yo">PORTAFOLIO</div>
         <div class="proyectos">
           <div class="card">
@@ -99,7 +109,7 @@
           
         </div>
       </section>
-      <section class="contacto">
+      <section id="contacto" class="contacto"> <!-- Agregar id para el anclaje -->
         <div class="yo">CONTACTO</div>
         <div class="contacto">
           <div class="card">

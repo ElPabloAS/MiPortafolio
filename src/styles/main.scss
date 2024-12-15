@@ -1,6 +1,5 @@
 @use "globals" as *;
 @use "layout";
-@use "header"; // Descomentar para usar los estilos del header
-@use "footer";
+@use "body";
 @use "mixins";
 @use "variables";
